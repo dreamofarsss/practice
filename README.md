@@ -17,3 +17,7 @@ This project requires a `.env` file in the root directory to configure the appli
 ```plaintext
 PORT=3000
 DB_URL=mongodb://localhost:27017/myapp
+
+
+## Testing
+Import `docs/MiniProjectAPI.postman_collection.json` into Postman to test the API. The collection includes requests for all endpoints with tests to verify status codes and response formats.
